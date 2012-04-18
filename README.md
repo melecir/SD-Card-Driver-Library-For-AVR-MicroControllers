@@ -1,5 +1,6 @@
-# SD-Card-Driver-Lib-For-AVR-MicroControllers
-SD Card Driver Library For AVR MicroControllers. It is tested in CodeVisionAVR IDE and ATMEGA32A
+# SD Memory Card Library for AVR Microcontrollers
+
+Note: I originally wrote this small library back in 2012 while working on my university project, Wave Audio Player with AVR Microcontrollers and an SD Card. I'm sharing it here as a way to preserve the memory and reflect on that time.
 
 # How to Use:
  
@@ -27,4 +28,3 @@ unsigned char  read_sd(unsigned long int  sector,unsigned char* buffer);
 
 unsigned char  write_sd(unsigned long int sector,unsigned char* buffer);
 
-This Code was written by me several years ago (2012) and I just wanted to have it here for memory :)
